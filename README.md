@@ -2,6 +2,7 @@
 
 Take-home for the Frontend Developer role at Manufac. A one page form a visiting nurse
 fills in at an elderly patient's home. React 19, TypeScript, Mantine, Zod.
+Live: https://dave-assessment-form.netlify.app/
 
 ## Running it
 
