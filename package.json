@@ -16,10 +16,10 @@
     "test": "npm run typecheck && npm run prettier:check && npm run lint && npm run vitest && npm run build"
   },
   "dependencies": {
-    "@mantine/core": "^8.3.0",
-    "@mantine/dates": "^8.3.0",
-    "@mantine/form": "^8.3.0",
-    "@mantine/hooks": "^8.3.0",
+    "@mantine/core": "^9.0.0",
+    "@mantine/dates": "^9.0.0",
+    "@mantine/form": "^9.0.0",
+    "@mantine/hooks": "^9.0.0",
     "dayjs": "^1.11.13",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

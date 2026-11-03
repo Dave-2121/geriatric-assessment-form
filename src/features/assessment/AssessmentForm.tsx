@@ -29,7 +29,7 @@ export function AssessmentForm({ onSave }: Props) {
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState<Assessment | null>(null);
 
-  const form = useForm<FormValues, (values: FormValues) => Assessment>({
+  const form = useForm<FormValues, Assessment>({
     initialValues: emptyValues,
     validate: schemaResolver(assessmentSchema, { sync: true }),
     validateInputOnBlur: true,
